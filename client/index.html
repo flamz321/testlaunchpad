@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Feather App - The Premier Platform for Robinhood Chain</title>
+    <meta name="description" content="Feather App brings profiles, feeds, and discovery to Robinhood Chain so you can share setups, track launches, and build reputation next to the markets you trade." />
+
+    <!-- PWA / Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#00C805" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Feather" />
+    <link rel="apple-touch-icon" href="/feather_logo.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icon-512.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Feather App" />
+    <meta property="og:url" content="https://featherapp.fun/" />
+    <meta property="og:title" content="Feather App - The Premier Platform for Robinhood Chain" />
+    <meta property="og:description" content="Feather App brings profiles, feeds, and discovery to Robinhood Chain so you can share setups, track launches, and build reputation next to the markets you trade." />
+    <meta property="og:image" content="https://featherapp.fun/og_image.jpg" />
+    <meta property="og:image:width" content="1248" />
+    <meta property="og:image:height" content="832" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Feather App - The Premier Platform for Robinhood Chain" />
+    <meta name="twitter:description" content="Feather App brings profiles, feeds, and discovery to Robinhood Chain so you can share setups, track launches, and build reputation next to the markets you trade." />
+    <meta name="twitter:image" content="https://featherapp.fun/og_image.jpg" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XDT0FZ05B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9XDT0FZ05B', { send_page_view: false });
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

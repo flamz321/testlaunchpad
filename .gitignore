@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables — never commit these
+.env
+.env.*
+.env.local
+.env.production
+
+# Development paste files (logs, snippets pasted during debugging)
+attached_assets/Pasted-*.txt

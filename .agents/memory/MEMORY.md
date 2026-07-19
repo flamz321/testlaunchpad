@@ -1,0 +1,6 @@
+- [Universal sidebar shell](universal-sidebar.md) — AppShell always shows sidebar on all routes; isSocialRoute distinction removed. Home.tsx uses AppShell wrapper, no standalone nav.
+- [Bags.fm token discovery](bags-token-discovery.md) — DexScreener search limited to ~30 per query; use 55 diverse queries (alphabet + crypto terms) in batches of 15 to surface more unique bags tokens.
+- [bondingProgress estimation](bonding-progress.md) — Bags.fm graduation threshold ~$69k market cap; compute as min(100, round(marketCap/69000 * 100)) as proxy since DexScreener doesn't expose bonding curve %.
+- [Git remote name](git-remote.md) — GitHub remote is named `github`, not `origin`. Always use `git push github main`.
+- [Helius holder detection](helius-holder-detection.md) — Public Solana RPCs blocked; use Helius REST /addresses/{mint}/transactions to extract real owner wallets from tokenTransfers.
+- [Alchemy Solana RPC](alchemy-solana-rpc.md) — Use Alchemy as primary holder source: getTokenLargestAccounts + getMultipleAccounts(jsonParsed) gives accurate top-20 with real owner wallets.
